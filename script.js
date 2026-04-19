@@ -1,3 +1,4 @@
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -24,4 +25,3 @@ window.addEventListener("scroll", function () {
     } else {
         navbar.classList.remove("scrolled");
     }
-});

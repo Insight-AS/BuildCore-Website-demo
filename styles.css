@@ -437,27 +437,3 @@ section {
         flex-direction: column;
     }
 }
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    transition: all 0.3s ease;
-}
-
-
-header.scrolled {
-    padding: 10px 0;   /* reduce height */
-    background: rgba(13, 37, 63, 0.95); /* slightly solid */
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(8px);
-}
-
-header.scrolled .logo {
-    font-size: 1.5rem;
-}
-
-header.scrolled {
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-}
